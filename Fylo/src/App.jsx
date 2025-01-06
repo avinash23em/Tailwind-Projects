@@ -9,7 +9,6 @@ function App() {
 
   return (
    <div className='h-screen bg-black'>
-<h1>what are u doing </h1>
 <Home/>
    </div>
   )
