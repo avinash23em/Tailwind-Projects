@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'darkbg':"url('/bg-curvy-desktop.svg')"
+      }
+    },
   },
   plugins: [],
 }
