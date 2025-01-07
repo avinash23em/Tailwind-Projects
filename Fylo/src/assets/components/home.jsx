@@ -1,5 +1,9 @@
+import { Access } from "../icons/access";
+import { Collab } from "../icons/collab";
 import { Curvy } from "../icons/curvy";
+import { File } from "../icons/file";
 import { Logo } from "../icons/logo";
+import { Security } from "../icons/security";
 import base from '../images/illustration-intro.png'
 
 export function Home(){
@@ -21,14 +25,24 @@ export function Home(){
         alt="base" 
       />
       </div>
-     <div className="h-72 bg-darkbg bg-no-repeat bg-cover">
+     <div className="container mx-auto px-6 bg-darkbg ">
       <div className="text-center text-white pt-8">
         <h1 className="text-4xl font-serif ">All Your Files in One Secure Location,</h1>
         <h2 className="text-2xl mt-2 font-serif">accesible anywhere</h2>
     <h5>fylo stores files in one location</h5>
     <h5>acces them whenever you need share and collaborate with</h5>
     <h5>with family friends,</h5>
+    <button className="rounded-full p-4 w-52 bg-blue-300">Get Started</button>
+
       </div>
+      </div>
+      <div className="flex justify-start basis-2/4 ">
+        <Access/>
+        <Collab/>
+        </div>
+        <div className="flex justify-start basis-2/4">
+        <File/>
+        <Security/>
       </div>
     </div>
   )
