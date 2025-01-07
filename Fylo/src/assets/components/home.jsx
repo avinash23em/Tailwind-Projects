@@ -36,11 +36,11 @@ export function Home(){
 
       </div>
       </div>
-      <div className="flex justify-start basis-2/4 ">
-        <Access/>
+      <div className="container mx-auto px-6 pb-32">
+      <div className="flex flex-col items-center space-y-24">
+        <div className="flex flex-col items-center justify-center space-y-2"><Access/></div>
         <Collab/>
         </div>
-        <div className="flex justify-start basis-2/4">
         <File/>
         <Security/>
       </div>
