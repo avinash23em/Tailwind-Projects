@@ -8,7 +8,7 @@ import base from '../images/illustration-intro.png'
 
 export function Home(){
   return (
-    <div className="h-screen overflow-y-auto bg-purple-800">
+    <div className="h-screen overflow-y-auto">
       <div className="flex">
         <div className="flex justify-start basis-4/5 p-8">
           <Logo/>
@@ -24,25 +24,6 @@ export function Home(){
         src={base} 
         alt="base" 
       />
-      </div>
-     <div className="container mx-auto px-6 bg-darkbg ">
-      <div className="text-center text-white pt-8">
-        <h1 className="text-4xl font-serif ">All Your Files in One Secure Location,</h1>
-        <h2 className="text-2xl mt-2 font-serif">accesible anywhere</h2>
-    <h5>fylo stores files in one location</h5>
-    <h5>acces them whenever you need share and collaborate with</h5>
-    <h5>with family friends,</h5>
-    <button className="rounded-full p-4 w-52 bg-blue-300">Get Started</button>
-
-      </div>
-      </div>
-      <div className="container mx-auto px-6 pb-32">
-      <div className="flex flex-col items-center space-y-24">
-        <div className="flex flex-col items-center justify-center space-y-2"><Access/></div>
-        <Collab/>
-        </div>
-        <File/>
-        <Security/>
       </div>
     </div>
   )
